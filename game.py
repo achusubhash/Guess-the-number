@@ -3,7 +3,7 @@ import random
 def main():
    
     H = random.randint(0, 5)
-    Hint = pc - H or pc + H
+    Hint = number - H or number + H
     print("Hint is.......",Hint)
     
     number = random.randint(10, 100)

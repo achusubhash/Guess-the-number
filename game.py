@@ -1,6 +1,7 @@
 import random
 
 def main():
+   
     random_hint = random.randint(0, 5)
     number = random.randint(10, 100)
     Hint = number - random_hint or number + random_hint
@@ -19,6 +20,7 @@ def main():
         print("Choose upto 100!")
     else:
         print("Number was",number)
+
 
 def again():
     user_input = input("Play again?: ")

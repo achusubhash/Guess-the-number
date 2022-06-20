@@ -2,11 +2,10 @@ import random
 
 def main():
    
-    H = random.randint(0, 5)
-    Hint = number - H or number + H
-    print("Hint is.......",Hint)
-    
+    random_hint = random.randint(0, 5)
     number = random.randint(10, 100)
+    Hint = number - random_hint or number + random_hint
+    print("Hint is.......",Hint)
     user_input = int(input("Enter a number between 10-100: "))
     
     if user_input == number:

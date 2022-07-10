@@ -1,1 +1,1 @@
-A simple Guess the number game codeusing python
+A simple Guess the number game code using python
